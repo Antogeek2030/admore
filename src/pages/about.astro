@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+15805550199';
+const phoneDisplay = '(580) 555-0199';
+---
+<Layout title="About Us | AC Repair Ardmore OK" description="Local licensed AC repair technicians serving Ardmore, OK with same-day service and honest pricing.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>About AC Repair Ardmore</h1>
+      <p>Local expertise, honest service, and a commitment to keeping Ardmore cool.</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container prose">
+      <p>We are a locally focused air conditioning repair company dedicated to Ardmore and surrounding southern Oklahoma communities. Our technicians are licensed, insured, and trained on the systems most common in the area.</p>
+      <h2>Our Promise</h2>
+      <ul>
+        <li>Same-day response whenever possible</li>
+        <li>Upfront written estimates — no surprises</li>
+        <li>Honest repair vs. replace advice</li>
+        <li>Workmanship guarantee on every job</li>
+        <li>Respect for your home and time</li>
+      </ul>
+      <h2>Serving Ardmore & Beyond</h2>
+      <p>From Lake Murray Drive to Lone Grove, Springer, Dickson, and nearby towns, we provide reliable AC repair, maintenance, and installation.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call Now — {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>

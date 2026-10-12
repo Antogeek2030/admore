@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+15805550199';
+const phoneDisplay = '(580) 555-0199';
+---
+<Layout title="Emergency AC Repair in Ardmore, OK | 24/7 Service" description="24/7 emergency AC repair in Ardmore, OK. Same-day response, licensed technicians, no after-hours surprises.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Emergency AC Repair</h1>
+      <p>24/7 response when your cooling fails in Ardmore, OK.</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container prose">
+      <p>When your air conditioner stops working during an Oklahoma heat wave, every minute counts. Our emergency AC repair team is available around the clock to restore cool air to your home.</p>
+      <h2>What We Offer</h2>
+      <ul>
+        <li>Available 24 / 7 with no after-hours surcharge surprises</li>
+        <li>Average response under 60 minutes in the Ardmore area</li>
+        <li>Service vehicles stocked with common parts</li>
+        <li>Written estimate before any work begins</li>
+        <li>Licensed, insured technicians</li>
+      </ul>
+      <h2>Ready to Schedule?</h2>
+      <p>Call or text <a href={`tel:${phone}`}>{phoneDisplay}</a> for emergency AC service in Ardmore, OK.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call Now — {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>

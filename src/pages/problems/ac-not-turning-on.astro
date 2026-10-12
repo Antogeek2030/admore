@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+15805550199';
+const phoneDisplay = '(580) 555-0199';
+---
+<Layout title="AC Not Turning On — Ardmore OK Repair" description="AC won't start in Ardmore? Capacitor, thermostat, or electrical issues diagnosed and fixed same day.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>AC Not Turning On</h1>
+      <p>When your system won't start, we find the cause fast.</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container prose">
+      <p>An air conditioner that won't turn on can leave you without cooling when you need it most. Many no-start issues are caused by a failed capacitor or simple electrical problems that can be fixed quickly.</p>
+      <h2>Common Causes</h2>
+      <ul>
+        <li>Failed start or run capacitor</li>
+        <li>Tripped breaker or blown fuse</li>
+        <li>Bad thermostat or wiring</li>
+        <li>Contactor or control board failure</li>
+        <li>Safety switch or float switch open</li>
+      </ul>
+      <h2>Get Help Today</h2>
+      <p>Call <a href={`tel:${phone}`}>{phoneDisplay}</a> for same-day service in Ardmore, OK.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call Now — {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>

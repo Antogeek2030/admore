@@ -1,0 +1,32 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+15805550199';
+const phoneDisplay = '(580) 555-0199';
+---
+<Layout title="Service Areas | AC Repair Ardmore OK" description="AC repair serving Ardmore, Lone Grove, Springer, Dickson, Sulphur, Madill and surrounding Oklahoma communities.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Service Areas</h1>
+      <p>Proudly serving Ardmore and southern Oklahoma.</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container prose">
+      <p>Based at 1704 Lake Murray Dr S in Ardmore, we provide same-day and emergency AC repair across the region.</p>
+      <h2>Communities We Serve</h2>
+      <ul>
+        <li>Ardmore</li>
+        <li>Lone Grove</li>
+        <li>Springer</li>
+        <li>Dickson</li>
+        <li>Sulphur</li>
+        <li>Madill</li>
+        <li>Marietta</li>
+        <li>Wilson</li>
+        <li>And surrounding Carter County areas</li>
+      </ul>
+      <p>Not sure if we cover your location? Call <a href={`tel:${phone}`}>{phoneDisplay}</a> and we'll let you know.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call Now — {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>

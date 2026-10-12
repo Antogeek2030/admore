@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+15805550199';
+const phoneDisplay = '(580) 555-0199';
+---
+<Layout title="High Energy Bills from AC — Ardmore OK" description="Sudden spike in energy bills in Ardmore? Inefficient AC operation diagnosed and corrected.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>High Energy Bills</h1>
+      <p>An inefficient AC can drive up costs quickly in Oklahoma heat.</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container prose">
+      <p>A sudden increase in your electric bill often points to an air conditioner that is working harder than it should due to low refrigerant, dirty coils, or aging components.</p>
+      <h2>Common Causes</h2>
+      <ul>
+        <li>Low refrigerant charge</li>
+        <li>Dirty coils reducing efficiency</li>
+        <li>Failing compressor or motors</li>
+        <li>Leaky ducts</li>
+        <li>Oversized or undersized system</li>
+      </ul>
+      <h2>Get Help Today</h2>
+      <p>Call <a href={`tel:${phone}`}>{phoneDisplay}</a> for an efficiency check in Ardmore, OK.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call Now — {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>

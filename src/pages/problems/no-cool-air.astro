@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+15805550199';
+const phoneDisplay = '(580) 555-0199';
+---
+<Layout title="No Cool Air from AC — Ardmore OK Repair" description="AC blowing warm air in Ardmore? We diagnose low refrigerant, compressor issues, and more with same-day service.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>No Cool Air</h1>
+      <p>Fast diagnosis when your AC stops cooling in Ardmore, OK.</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container prose">
+      <p>Warm air from the vents is one of the most common AC complaints during Oklahoma summers. Causes range from simple dirty filters to low refrigerant or a failed compressor.</p>
+      <h2>Common Causes</h2>
+      <ul>
+        <li>Dirty or clogged air filters</li>
+        <li>Low refrigerant from a leak</li>
+        <li>Failed compressor or capacitor</li>
+        <li>Dirty evaporator or condenser coils</li>
+        <li>Thermostat or control issues</li>
+      </ul>
+      <h2>Get Help Today</h2>
+      <p>Call <a href={`tel:${phone}`}>{phoneDisplay}</a> for same-day AC repair in Ardmore.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call Now — {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>

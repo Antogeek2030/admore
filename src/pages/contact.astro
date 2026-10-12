@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+const phone = '+15805550199';
+const phoneDisplay = '(580) 555-0199';
+---
+<Layout title="Contact Us | AC Repair Ardmore OK" description="Contact AC Repair Ardmore for same-day air conditioning service. Call (580) 555-0199 or visit 1704 Lake Murray Dr S.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Reach us 24/7 for emergency AC repair in Ardmore, OK.</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container prose">
+      <h2>Phone</h2>
+      <p><a href={`tel:${phone}`} style="font-size:1.5rem;font-weight:700;color:var(--primary)">{phoneDisplay}</a></p>
+      <p>Available 24 / 7 for emergencies. Same-day appointments often available.</p>
+      <h2>Address</h2>
+      <p>1704 Lake Murray Dr S<br />Ardmore, OK 73401<br />United States</p>
+      <h2>Service Area</h2>
+      <p>Ardmore, Lone Grove, Springer, Dickson, Sulphur, Madill, and surrounding Carter County communities.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call Now — {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>

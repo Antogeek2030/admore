@@ -1,0 +1,41 @@
+---
+const phone = '+15805550199';
+const phoneDisplay = '(580) 555-0199';
+const year = new Date().getFullYear();
+---
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>AC Repair Ardmore OK</h4>
+        <p>Licensed air conditioning repair, installation, and maintenance serving Ardmore and surrounding Oklahoma communities. Same-day service, upfront pricing, written guarantee.</p>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <p><a href="/services/emergency-ac-repair/">Emergency AC Repair</a></p>
+        <p><a href="/services/ac-repair/">AC System Repair</a></p>
+        <p><a href="/services/ac-installation/">AC Installation</a></p>
+        <p><a href="/services/ac-maintenance/">AC Maintenance</a></p>
+        <p><a href="/services/ductless-mini-split/">Ductless Mini-Split</a></p>
+      </div>
+      <div>
+        <h4>Common Problems</h4>
+        <p><a href="/problems/no-cool-air/">No Cool Air</a></p>
+        <p><a href="/problems/ac-not-turning-on/">AC Not Turning On</a></p>
+        <p><a href="/problems/strange-noises/">Strange Noises</a></p>
+        <p><a href="/problems/weak-airflow/">Weak Airflow</a></p>
+        <p><a href="/problems/frozen-evaporator/">Frozen Coil</a></p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><a href={`tel:${phone}`}>{phoneDisplay}</a></p>
+        <p>1704 Lake Murray Dr S<br />Ardmore, OK 73401</p>
+        <p>Open 24 / 7 for emergencies</p>
+        <p style="margin-top:0.75rem"><a href="/service-areas/">Service Areas</a> · <a href="/blog/">Blog</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© {year} AC Repair Ardmore OK. All rights reserved. | <a href="/privacy/">Privacy Policy</a></p>
+    </div>
+  </div>
+</footer>

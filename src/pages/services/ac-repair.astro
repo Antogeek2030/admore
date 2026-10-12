@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+15805550199';
+const phoneDisplay = '(580) 555-0199';
+---
+<Layout title="AC System Repair in Ardmore, OK | Central Air & Heat Pumps" description="Expert AC system repair in Ardmore, OK. Capacitors, compressors, coils, and full diagnostics for all major brands.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>AC System Repair</h1>
+      <p>Central air & heat pump repair serving Ardmore and surrounding communities.</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container prose">
+      <p>From failed capacitors to compressor issues, our technicians diagnose and repair central air conditioners and heat pumps from all major brands. Most repairs are completed on the first visit.</p>
+      <h2>What We Repair</h2>
+      <ul>
+        <li>Capacitors, contactors, and relays</li>
+        <li>Compressors and outdoor fan motors</li>
+        <li>Evaporator and condenser coils</li>
+        <li>Thermostats and control boards</li>
+        <li>All major brands: Carrier, Trane, Lennox, Goodman, Rheem, and more</li>
+      </ul>
+      <h2>Ready to Schedule?</h2>
+      <p>Call <a href={`tel:${phone}`}>{phoneDisplay}</a> for AC repair in Ardmore, OK.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call Now — {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>

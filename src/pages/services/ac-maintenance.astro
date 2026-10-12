@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+15805550199';
+const phoneDisplay = '(580) 555-0199';
+---
+<Layout title="AC Maintenance in Ardmore, OK | Tune-Ups & Cleaning" description="AC maintenance and tune-ups in Ardmore, OK. Extend system life, improve efficiency, and prevent breakdowns.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>AC Maintenance</h1>
+      <p>Preventive care that keeps your system running efficiently through Oklahoma summers.</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container prose">
+      <p>Regular maintenance is the best way to avoid mid-summer breakdowns and high energy bills. Our tune-ups include thorough inspection, cleaning, and performance testing.</p>
+      <h2>What's Included</h2>
+      <ul>
+        <li>Full system inspection</li>
+        <li>Coil cleaning and drain line clearing</li>
+        <li>Filter check and recommendations</li>
+        <li>Electrical and refrigerant checks</li>
+        <li>Performance testing and airflow measurement</li>
+      </ul>
+      <h2>Ready to Schedule?</h2>
+      <p>Call <a href={`tel:${phone}`}>{phoneDisplay}</a> for AC maintenance in Ardmore, OK.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call Now — {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>

@@ -1,0 +1,29 @@
+---
+import Layout from '../../layouts/Layout.astro';
+const phone = '+15805550199';
+const phoneDisplay = '(580) 555-0199';
+---
+<Layout title="Strange AC Noises — Ardmore OK Repair" description="Grinding, squealing, or banging from your AC in Ardmore? Early repair prevents bigger damage.">
+  <section class="page-hero">
+    <div class="container">
+      <h1>Strange Noises</h1>
+      <p>Unusual sounds often signal wear that needs attention.</p>
+    </div>
+  </section>
+  <section class="content-section">
+    <div class="container prose">
+      <p>Grinding, squealing, rattling, or banging noises from your AC should not be ignored. They usually mean a component is wearing out and can lead to more expensive failures if left alone.</p>
+      <h2>Common Causes</h2>
+      <ul>
+        <li>Worn blower or fan motor bearings</li>
+        <li>Loose panels or debris in the unit</li>
+        <li>Failing compressor</li>
+        <li>Bent fan blades</li>
+        <li>Refrigerant flow issues</li>
+      </ul>
+      <h2>Get Help Today</h2>
+      <p>Call <a href={`tel:${phone}`}>{phoneDisplay}</a> for diagnosis in Ardmore, OK.</p>
+      <p style="margin-top:1.5rem"><a href={`tel:${phone}`} class="btn btn-primary">Call Now — {phoneDisplay}</a></p>
+    </div>
+  </section>
+</Layout>
